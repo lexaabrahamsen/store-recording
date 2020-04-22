@@ -26,6 +26,7 @@ export default class Product extends Component {
                                 disabled={inCart ? true : false} 
                                 onClick={() => {
                                     value.addToCart(id);
+                                    value.openModal(id);
                                 }}
                             >
                                 {inCart ? (
@@ -37,8 +38,7 @@ export default class Product extends Component {
                                     <i className="fas fa-cart-plus" />
                                 )}
                             </button>
-                        </div>)}
-                        
+                        </div>)}    
                 </ProductConsumer>
             {/* card footer */}
             <div className="card-footer d-flex justify-content-between">
