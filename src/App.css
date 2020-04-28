@@ -46,14 +46,16 @@
   --mainYellow:#ffa400;
 }
 body {
-  font-family: 'Oswald', sans-serif !important;
+  font-family: 'Monsterrat', sans-serif !important;
+  font-size: 10px;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
 }
 .text-title {
-  font-family: 'Oswald', sans-serif;
-  letter-spacing: 0.3rem;
+  font-family: 'Monsterrat', sans-serif;
+  letter-spacing: 0.05rem;
   text-transform: uppercase;
+  font-weight: 800;
 }
 .text-blue {
   color: var(--mainBlue);
