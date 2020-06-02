@@ -103,7 +103,8 @@ const ProductWrapper = styled.div`
     bottom: 0;
     right: 0;
     padding: 0.2 0.4 rem;
-    background: var(--lightBlue);
+    // background: var(--lightBlue);
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
     border: none;
     color: var(--mainWhite);
     font-size: 1.4rem;

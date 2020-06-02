@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom';
-import logo from '../logo.svg';
+// import logo from '../logo.svg';
+import logo from '../logo.png';
 import styled from 'styled-components';
 import {ButtonContainer} from './Button';
+
 
 export default class NavBar extends Component {
     render() {
@@ -35,10 +37,13 @@ export default class NavBar extends Component {
 }
 
 const NavWrapper = styled.nav`
-    background: var(--mainBlue);
+    background: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    
     .nav-link {
-        color: var(--mainWhite) !important;
-        font-size: 1.3rem;
+        color: var(--mainDark) !important;
+        font-size: 1.5rem;
+        font-weight: 700;
         text-transform: capitalize;
     }
 `;
